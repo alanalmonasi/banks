@@ -1,0 +1,72 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   line-height: 3rem;
+   background-color: bisque;
+}
+
+.search-section {
+   display: flex;
+   justify-content: space-around;
+}
+
+.bank-section {
+   display: flex;
+   justify-content: space-around;
+}
+
+.input-btn {
+   padding: 0.5rem;
+   border-radius: 5px;
+   width: 300px;
+   border: none;
+}
+
+.rld-btn {
+   padding: 0.5rem;
+   background-color: cornflowerblue;
+   border-radius: 5px;
+   border: none;
+   color: white;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+.rld-btn:hover {
+   background-color: blue;
+}
+
+.delete-btn {
+   background-color: #ff5252;
+   color: #ffffff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+   background-color: #ff1744;
+}
+
+.delete-btn:focus {
+   box-shadow: 0 0 0 2px #ff5252, 0 0 0 4px rgba(255, 82, 82, 0.3);
+}
+
+.table-row {
+   border: 2px solid black;
+}
+
+.element,
+.img-element {
+   padding: 0.5rem 0.8rem;
+}
+
+.img-element {
+   padding-top: 2rem;
+}
